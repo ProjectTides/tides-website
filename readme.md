@@ -16,7 +16,7 @@
 
 2. On your local machine, Run `composer install` in the root directory using the CLI.
 
-3. Run `npm install` on */wp-content/themes/tides/* directory. We are using `tides` as default theme.
+3. Run `npm install` on `/wp-content/themes/tides/` directory. We are using `tides` as default theme.
 
 4. Run `grunt` to check if the grunt installation worked. You should see a style.css and main.js inside your theme. 
 
@@ -26,7 +26,7 @@
 
    * [Generate](https://api.wordpress.org/secret-key/1.1/salt/) a new set of auth keys. 
 
-   * Replace the auth key code in wp-config.php with newly generated set of auth keys.
+   * Replace the auth key code in `wp-config.php` with newly generated set of auth keys.
       ```
   
       define('AUTH_KEY', '');
@@ -52,7 +52,7 @@
 
 6. Configure the database.
 
-   * Create a new MySql database for tides website.
+   * Create a new **MySql** database for tides website.
 
    * Update configurations for newly created database in `wp-config.php`.
       ```
