@@ -2,6 +2,7 @@
 .htaccess
 .DS_Store
 
+vendor
 !wp-content/plugins/advanced-custom-fields-pro-5.8.7
 wp-content/plugins
 wp-config.php
